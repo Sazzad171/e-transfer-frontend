@@ -483,16 +483,24 @@
 	padding-bottom: 200px;
 }
 
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
 /* theme default css */
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
 html {
 	scroll-behavior: smooth;
 }
  body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-style: normal;
-	font-size: 15px;
-	line-height: 1.8;
-	color: #fff;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #000;
 	font-weight: 400;
 	position: relative;
 }
@@ -518,14 +526,14 @@ a:focus,
 }
 a:focus,
 a:hover {
-	color: #D01818;
+	color: #00a9a4;
 	text-decoration: none;
 }
 a,
 button {
-	color: #fff;
+	color: #00a9a4;
 	outline: medium none;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 500;
 	text-decoration: none;
 }
@@ -541,8 +549,8 @@ h6 {
 	margin-top: 0px;
 	font-style: normal;
 	text-transform: normal;
-	color: #fff;
-	font-weight: 500;
+	color: #000;
+	font-weight: 700;
 }
 h1 a,
 h2 a,
@@ -553,26 +561,23 @@ h6 a {
 	color: inherit;
 }
 h1 {
-	font-size: 48px;
-	font-weight: 700;
+	font-size: 52px;
 }
 h2 {
-	font-size: 42px;
-	font-weight: 700;
+	font-size: 40px;
 }
 h3 {
-	font-size: 36px;
-	font-weight: 700;
+	font-size: 38px;
 }
 h4 {
-	font-size: 30px;
+	font-size: 22px;
 }
 h5 {
-	font-size: 24px;
-	font-weight: 24px;
+	font-size: 17px;
 }
 h6 {
-	font-size: 16px;
+	font-size: 15px;
+	font-weight: 600;
 }
 ul {
 	margin: 0px;
@@ -594,44 +599,44 @@ label {
 	font-weight: 400;
 }
 *::-moz-selection {
-	background: #d01818a6;
+	background: #00a9a49e;
 	color: #fff;
 	text-shadow: none;
 }
 ::-moz-selection {
-	background: #d01818a6;
+	background: #00a9a49e;
 	color: #fff;
 	text-shadow: none;
 }
 ::selection {
-	background: #d01818a6;
+	background: #00a9a49e;
 	color: #fff;
 	text-shadow: none;
 }
 *::-moz-placeholder {
-	color: #555555;
+	color: #00a9a49e;
 	font-size: 14px;
 	opacity: 1;
 }
 *::placeholder {
-	color: #555555;
+	color: #00a9a49e;
 	font-size: 14px;
 	opacity: 1;
 }
 /* button style */
 .btn {
-	background: #D01818 none repeat scroll 0 0;
+	background: #00a9a4 none repeat scroll 0 0;
 	border: medium none;
-	border-radius: 2px;
+	border-radius: 6px;
 	color: #fff;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 1px;
-	line-height: 1;
+	line-height: 26px;
 	margin-bottom: 0;
-	padding: 12px 25px;
+	padding: 13px 35px;
 	text-align: center;
 	touch-action: manipulation;
 	transition: all 0.3s ease 0s;
@@ -645,21 +650,24 @@ label {
 .color-black {
 	color: #000;
 }
+.color-green {
+	color: #00a9a4;
+}
 .color-ash {
-	color: #ccc;
+	color: #666;
 }
-.color-deep-ash {
-	color: #888888;
-}
-.color-red {
-	color: #D01818;
+.color-navy {
+	color: #030734;
 }
 /* bg color */
-.bg-dark {
-	background-color: #222222 !important;
+.bg-navy {
+	background-color: #030734;
 }
-.bg-full-dark {
-	background-color: #161616;
+.bg-ash {
+	background-color: #f9f9f9;
+}
+.bg-light-green {
+	background-color: rgba(0,169,164,.08);
 }
 
 .form-control {
