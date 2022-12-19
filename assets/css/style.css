@@ -1,0 +1,62 @@
+/* header start */
+.header-top {
+    padding: 8px 0;
+}
+.header-top .row {
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+.header-top-left .contact-info li,
+.header-top-right .header-menu li {
+    display: inline-block;
+}
+.header-top-left .contact-info a,
+.header-top-right .header-menu a {
+    font-size: 14px;
+    color: hsla(0,0%,100%,.8);
+}
+.header-top-left .contact-info a:hover,
+.header-top-right .header-menu a:hover {
+    color: #fff;
+}
+.header-top-left .contact-info i {
+    color: #00a9a4;
+    font-size: 14px;
+    margin-right: 4px;
+}
+.header-top-left .contact-info li {
+    margin-right: 20px;
+}
+.header-top-right .header-menu {
+    text-align: right;
+}
+.header-top-right .header-menu li {
+    line-height: 14px;
+    border-right: 1px solid #ddd;
+    padding: 0 10px 0 6px;
+}
+.header-top-right .header-menu li:last-child {
+    border-right: none;
+}
+
+/* main header */
+.header-main {
+    padding: 12px 0;
+}
+.header-main .row {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+.header-main .logo-area img {
+    max-width: 80px;
+    height: auto;
+}
+.header-main .main-menu-area > ul {
+    text-align: right;
+}
+.header-main .main-menu-area > ul > li {
+    display: inline-block;
+}
+
+/* header end */

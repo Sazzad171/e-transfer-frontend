@@ -491,6 +491,7 @@
 	margin: 0;
 	padding: 0;
 	outline: 0;
+	transition: 0.3s;
 }
 html {
 	scroll-behavior: smooth;
@@ -579,10 +580,6 @@ h6 {
 	font-size: 15px;
 	font-weight: 600;
 }
-ul {
-	margin: 0px;
-	padding: 0px;
-}
 li {
 	list-style: none;
 }
@@ -643,6 +640,14 @@ label {
 	vertical-align: middle;
 	white-space: nowrap;
 }
+.btn:focus {
+	box-shadow: none;
+}
+
+button:focus {
+	outline: 0;
+}
+
 /* color */
 .color-white  {
 	color: #fff;
@@ -670,6 +675,7 @@ label {
 	background-color: rgba(0,169,164,.08);
 }
 
+/* form */
 .form-control {
 	min-height: 44px;
 }
@@ -682,16 +688,6 @@ form label {
 	color: #ccc;
 	font-weight: 500;
 	font-size: 16px;
-}
-.btn:focus {
-	box-shadow: none;
-}
-.form-group {
-	margin-bottom: 1rem;
-}
-
-button:focus {
-	outline: 0;
 }
 
 /* owl carousel */
@@ -710,4 +706,15 @@ button:focus {
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
 	background-color: #1D2A52;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 8px;
+}
+.row {
+	display: grid;
+}
+.row > :first-child {
+	padding: 0 8px;
 }

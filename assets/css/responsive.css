@@ -4,22 +4,30 @@
 
 /* Normal desktop :. */
 @media (min-width: 1200px) {
-    
+    .container {
+        max-width: 1140px;
+    }
 }
 
 /* Mini desktop :1200px. */
 @media (max-width: 1200px) {
-    
+    .container {
+        max-width: 960px;
+    }
 }
  
 /* Tablet :991px. */
 @media (max-width: 991px) {
-    
+    .container {
+        max-width: 720px;
+    }
 }
  
 /* Large mobile :767px. */
 @media (max-width: 767px) {
-    
+    .container {
+        max-width: 540px;
+    }
 }
 
 @media (min-width: 992px) {
