@@ -611,13 +611,13 @@ label {
 	text-shadow: none;
 }
 *::-moz-placeholder {
-	color: #00a9a49e;
-	font-size: 14px;
+	color: #aaa;
+	font-size: 15px;
 	opacity: 1;
 }
 *::placeholder {
-	color: #00a9a49e;
-	font-size: 14px;
+	color: #aaa;
+	font-size: 15px;
 	opacity: 1;
 }
 /* button style */
@@ -628,8 +628,8 @@ label {
 	color: #fff;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 16px;
-	font-weight: 500;
+	font-size: 15px;
+	font-weight: 600;
 	letter-spacing: 1px;
 	line-height: 26px;
 	margin-bottom: 0;
@@ -639,6 +639,10 @@ label {
 	transition: all 0.3s ease 0s;
 	vertical-align: middle;
 	white-space: nowrap;
+}
+.btn:hover {
+	background-color: #030734;
+	color: #fff;
 }
 .btn:focus {
 	box-shadow: none;
@@ -676,6 +680,9 @@ button:focus {
 }
 
 /* form */
+input {
+	font-size: 15px;
+}
 .form-control {
 	min-height: 44px;
 }
