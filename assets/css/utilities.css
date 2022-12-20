@@ -506,7 +506,8 @@ html {
 	position: relative;
 }
 img {
-	transition: all 0.3s ease-out 0s;
+	max-width: 100%;
+	height: auto;
 	image-rendering: -moz-crisp-edges;
     image-rendering: -o-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
@@ -563,18 +564,23 @@ h6 a {
 }
 h1 {
 	font-size: 52px;
+	line-height: 60px;
 }
 h2 {
 	font-size: 40px;
+	line-height: 54px;
 }
 h3 {
 	font-size: 38px;
+	line-height: 46px;
 }
 h4 {
 	font-size: 22px;
+	line-height: 38px;
 }
 h5 {
 	font-size: 17px;
+	line-height: 30px;
 }
 h6 {
 	font-size: 15px;
@@ -653,19 +659,19 @@ button:focus {
 }
 
 /* color */
-.color-white  {
+.text-white  {
 	color: #fff;
 }
-.color-black {
+.text-black {
 	color: #000;
 }
-.color-green {
+.text-green {
 	color: #00a9a4;
 }
-.color-ash {
+.text-ash {
 	color: #666;
 }
-.color-navy {
+.text-navy {
 	color: #030734;
 }
 /* bg color */

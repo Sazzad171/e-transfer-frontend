@@ -1,25 +1,24 @@
 // home banner
-$('.home-banner').owlCarousel({
+$('.banner-slider').owlCarousel({
     loop:true,
     margin:0,
     responsiveClass:true,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 5000,
     autoplaySpeed: 1000,
     dots:false,
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:false
         },
         600:{
             items:1,
-            nav:true
+            nav:false
         },
         1000:{
             items:1,
-            nav:true,
-            loop:true
+            nav:false
         }
     }
 });

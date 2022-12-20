@@ -41,7 +41,7 @@
 
 /* main header */
 .header-main {
-    padding: 8px 0;
+    padding: 12px 0;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, 
         rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
@@ -101,3 +101,42 @@
 }
 
 /* header end */
+
+/* hero slider start */
+.banner-slider-area {
+    background-color: #f2fbfa;
+    position: relative;
+    z-index: 1;
+}
+.banner-slider .row {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.banner-slider-area .shape-big {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    max-height: 100%;
+}
+.banner-slider-area .shape-curve {
+    position: absolute;
+    top: 40px;
+    left: 40%;
+    z-index: -1;
+}
+.banner-slider-area .shape-dots {
+    position: absolute;
+    bottom: 50px;
+    left: 30%;
+    z-index: -1;
+}
+.banner-slider-area .shadow-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* hero slider end */
