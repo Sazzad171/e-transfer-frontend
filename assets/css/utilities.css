@@ -568,7 +568,7 @@ h1 {
 }
 h2 {
 	font-size: 40px;
-	line-height: 54px;
+	line-height: 50px;
 }
 h3 {
 	font-size: 38px;
@@ -727,7 +727,18 @@ form label {
 }
 .row {
 	display: grid;
+	gap: 30px;
 }
-.row > :first-child {
-	padding: 0 8px;
+
+/* animations */
+@keyframes bounce {
+	0% { left: 38%; }
+    50% { left: 36%; }
+    100% { left: 38%; }
+}
+
+@keyframes moveHorizontal {
+	0% { top: 58%; }
+    50% { top: 60%; }
+    100% { top: 58%; }
 }

@@ -3,7 +3,7 @@ $('.banner-slider').owlCarousel({
     loop:true,
     margin:0,
     responsiveClass:true,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout: 5000,
     autoplaySpeed: 1000,
     dots:false,
