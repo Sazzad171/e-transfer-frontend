@@ -257,3 +257,36 @@
     left: 44%;
 }
 /* security end */
+
+/* service start */
+.our-services-area {
+    background: linear-gradient(180deg,#f3fffe 54.17%,rgba(255,233,249,.28));
+}
+.our-services-area .row {
+    grid-template-columns: 1fr 1fr 2fr;
+    align-items: center;
+}
+.our-services-area .service-item {
+    padding: 22px 25px;
+    box-shadow: 0 0 25px rgb(85 85 85 / 10%);
+}
+
+/* service end */
+
+/* app start */
+.mobile-app-area .row {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+/* app end */
+
+/* footer start */
+footer .row {
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+
+footer .copyright-text {
+    border-top: 1px solid hsla(0,0%,100%,.1);
+    text-align: center;
+}
+/* footer end */
