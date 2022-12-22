@@ -184,3 +184,76 @@
 }
 
 /* about end */
+
+/* our feature start */
+.our-feature-area .heading-area {
+    text-align: center;
+}
+.our-feature-area .row {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.feature-item {
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 0 0 25px rgb(85 85 85 / 10%);
+    position: relative;
+    z-index: 1;
+}
+.feature-item .feature-heading {
+    display: grid;
+    grid-template-columns: 20% auto;
+    align-items: center;
+    gap: 15px;
+}
+.feature-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: #00a9a4;
+    border-radius: 8px;
+    z-index: -1;
+    transition: 0.4s;
+}
+.feature-item:hover::after {
+    height: 100%;
+}
+.feature-item:hover * {
+    color: #fff;
+}
+/* our feature end */
+
+/* security start */
+.banking-security-area .row {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.security-feature {
+    display: flex;
+    align-items: flex-start;
+}
+.security-feature .sf-img {
+    margin-right: 20px;
+    background-color: rgba(0,169,164,.1);
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+.banking-security-area .img-box {
+    padding-left: 3%;
+    position: relative;
+}
+.banking-security-area .img-box .shape-1 {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: -1;
+}
+.banking-security-area .img-box .shape-2 {
+    position: absolute;
+    bottom: 10px;
+    left: 44%;
+}
+/* security end */

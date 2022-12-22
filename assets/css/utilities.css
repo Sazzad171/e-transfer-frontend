@@ -675,6 +675,9 @@ button:focus {
 	color: #030734;
 }
 /* bg color */
+.bg-white {
+	background-color: #fff;
+}
 .bg-navy {
 	background-color: #030734;
 }
