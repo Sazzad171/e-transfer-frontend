@@ -504,6 +504,7 @@ html {
 	color: #000;
 	font-weight: 400;
 	position: relative;
+	overflow-x: hidden;
 }
 img {
 	max-width: 100%;
@@ -652,6 +653,7 @@ label {
 }
 .btn:focus {
 	box-shadow: none;
+	color: #fff;
 }
 
 button:focus {

@@ -28,8 +28,80 @@
  
 /* Large mobile :767px. */
 @media (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 32px;
+    }
     .container {
         max-width: 540px;
+        padding: 0 12px;
+    }
+    .header-top {
+        display: none;
+    }
+    .header-main .main-menu-area ul {
+        display: none;
+    }
+    .header-main .mobile-menu-icon {
+        display: block;
+        text-align: right;
+    }
+    .header-main .mobile-menu-icon i {
+        font-size: 16px;
+    }
+    .banner-slider-area .shape-big {
+        top: unset;
+    }
+    .banner-slider .row {
+        grid-template-columns: 1fr;
+    }
+    .banner-slider .slider-item {
+        padding-top: 20px;
+    }
+    .about-us-area .shape-dots {
+        display: none;
+    }
+    .about-us-area,
+    .our-feature-area,
+    .banking-security-area,
+    .our-services-area,
+    .mobile-app-area {
+        padding: 30px 0;
+    }
+    .about-us-area .row,
+    .our-feature-area .row,
+    .banking-security-area .row,
+    .our-services-area .row,
+    .mobile-app-area .row {
+        grid-template-columns: 1fr;
+    }
+    .our-feature-area .heading-area {
+        margin-bottom: 20px;
+    }
+    .banking-security-area .text-content-box {
+        order: 2;
+    }
+    .our-services-area .first-service-items {
+        order: 2;
+    }
+    .our-services-area .second-service-items {
+        padding-top: 0;
+        order: 3;
+    }
+    .our-services-area .service-details-box {
+        order: 1;
+    }
+    footer .row {
+        grid-template-columns: 1fr 1fr;
+        padding: 30px 0;
     }
 }
 
